@@ -7,6 +7,9 @@ from django.contrib import messages
 
 
 # Registration Views
+def urbanfarmers_registration(request):
+    return render(request, 'homepages/registeration/urbanfarmers_registration.html')
+
 def farmerone_registration(request):
     return render(request, 'homepages/registeration/farmerone_registration.html')
 
