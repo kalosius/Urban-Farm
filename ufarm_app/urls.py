@@ -11,6 +11,9 @@ urlpatterns = [
     path('urbanfarmer_login/', views.urbanfarmer_login, name="urbanfarmer_login"),
     path('agricofficer_login/', views.agricofficer_login, name="agricofficer_login"),
     path('farmerone_login/', views.farmerone_login, name="farmerone_login"),
+    path('farmer_registration/', views.farmerone_registration, name="farmerone_registration"),
+
+    # Registration urls
 
     # main urls
     path('agricofficer_home/', views.agricofficer_home, name="agricofficer_home"),

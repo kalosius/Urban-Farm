@@ -6,6 +6,10 @@ from django.contrib import messages
 # Create your views here.
 
 
+# Registration Views
+def farmerone_registration(request):
+    return render(request, 'homepages/registeration/farmerone_registration.html')
+
 
 # Main Views
 def agricofficer_home(request):
